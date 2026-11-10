@@ -1,0 +1,35 @@
+# Build output
+Backend/bin/
+Backend/obj/
+BackendTests/bin/
+BackendTests/obj/
+
+# Frontend dependencies/build
+Frontend/node_modules/
+Frontend/dist/
+node_modules/
+
+# Secrets - VIGTIGT!!! Disse filer må kun ligge lokalt for at vi kan udvikle videre efter deployment
+Backend/firebase-key.json
+Backend/serviceAccountKey.json
+Backend/appsettings.Development.json
+Backend/Logs/
+
+Frontend/.env
+Frontend/.env.local
+
+# OS-filer
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.vs/
+*.user
+*.suo
+*.bak
+
+# Generated cache/test output
+*.lscache
+test-results/
+playwright-report/

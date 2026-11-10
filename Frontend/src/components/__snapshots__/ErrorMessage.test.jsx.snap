@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ErrorMessage > matcher snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="background: rgb(254, 226, 226); color: rgb(153, 27, 27); border: 1px solid rgb(254, 202, 202); border-radius: 14px; padding: 16px 18px; margin-bottom: 24px;"
+  >
+    Fejl
+  </div>
+</DocumentFragment>
+`;
